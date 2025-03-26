@@ -1,0 +1,43 @@
+#auth-wrapper {
+    display: flex;
+}
+
+#auth-wrapper .auth-side-image {
+    width: 830px;
+    min-width: 830px;
+    min-height: calc(1024px - 80px);
+    height: 100vh;
+
+    background-image: url(src/assets/images/auth-side-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#auth-wrapper .auth-box {
+    flex: 1; /* 나머지 영역 다 차지*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-sizing: border-box; /* 이걸 넣어 610px로 맞추기 */
+    padding-left: 100px;
+    padding-right: 130px;
+    min-width: 610px;
+
+
+}
+
+#auth-wrapper .divider {
+    border-top: 1px solid var(--Lightmode-Grey3);
+    width: 64px;
+}
+
+
+
+.sns-button.kakao{
+    background-image: url(/src/assets/images/kakao.png);
+}
+.sns-button.naver{
+    background-image: url(/src/assets/images/naver.png);
+}
